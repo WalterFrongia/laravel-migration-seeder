@@ -15,6 +15,14 @@ class TravelPackagesTableSeeder extends Seeder
      */
     public function run(Faker $faker) //si passa l'oggetto faker in una variabiler faker
     {
-        
+        for($i=0 ; $i <40 ; $i++){
+            $newTravelPackage = new TravelPackage();
+            $newTravelPackage->place = $faker->words(2, true);
+            $newTravelPackage->description = $faker->text(100);
+            $newTravelPackage->days = $faker->randomDigit();
+            $newTravelPackage->price = $faker->randomFloat(1, 100, 1000);
+
+            $newTravelPackage->save();
+        }
     }
 }
