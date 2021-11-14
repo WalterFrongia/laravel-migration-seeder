@@ -13,8 +13,8 @@ class TravelPackagesTableSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(Faker $faker) //si passa l'oggetto faker in una variabiler faker
     {
-        //
+        
     }
 }
