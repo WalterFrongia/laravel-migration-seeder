@@ -3,7 +3,10 @@
 use Illuminate\Database\Seeder;
 use app\Models\TravelPackage;
 
-class TravelPackagesTableSeedet extends Seeder
+// QUESTO E' UN MODO PER IMPORTARE UNA RISORSA PHP E ASSEGNARLE UN NOME CHE LA RAPPRESENTI
+use Faker\Generator as Faker; 
+
+class TravelPackagesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
