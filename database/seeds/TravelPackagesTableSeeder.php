@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use app\Models\TravelPackage;
+use App\Models\TravelPackage;
 
 // QUESTO E' UN MODO PER IMPORTARE UNA RISORSA PHP E ASSEGNARLE UN NOME CHE LA RAPPRESENTI
 use Faker\Generator as Faker; 
